@@ -56,17 +56,17 @@ This project implements blockchain-based certificates using **Soulbound Tokens (
 
 ## 🚀 Getting Started
 
-### Installation
+### 🔨 Installation
+1. Clone the repo
 
-1. Clone the repository:
-
-```bash
+```sh
 git clone https://github.com/Abhisharmika/Digital_Certificate.git
+```
 
 2. Installing dependencies and requirements
 
 ```sh
-cd Digital_Certificate
+cd Web3Certificate
 npm install ethers
 npm install ipfs-http-client
 npm install particles-bg
