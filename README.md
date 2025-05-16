@@ -1,15 +1,15 @@
-# Certify- Blockchain Based Certificates
-Track and Send Certificates using Non transferrable ERC721 Tokens (Inspired By: SBT- Soul Bound Token)
+# Certify - Blockchain-Based Certificates
+
+**Track and Issue Non-Transferable Certificates using Soulbound Tokens (SBT) - ERC721**
 
 <p align="center">
-    Make Sure you have React installed for local setup of this project
-    <br />
-    <a href="https://reactjs.org/"><strong>Learn more about React »</strong></a>
-    <br />
-  <a href="https://github.com/Abhisharmika/Digital_Certificate">Project Link</a>
- </p>
- 
-## ✍️ Table of Contents
+  Ensure you have <a href="https://reactjs.org/">React</a> installed for local setup.<br/>
+  <a href="https://github.com/Abhisharmika/Digital_Certificate">Project Repository</a>
+</p>
+
+---
+
+## 📋 Table of Contents
 - [About the Project](#about-the-project)
 - [Project Breakdown](#project-breakdown)
   - [Built With](#built-with)
@@ -18,36 +18,50 @@ Track and Send Certificates using Non transferrable ERC721 Tokens (Inspired By: 
 - [Usage](#usage)
 - [Contributions](#contributions)
 
- 
- ## 🔨 Project Breakdown 
-- Developing ERC721 contract. Making changes to this contract and giving it the Sould Bound properties. Changing the before token transfer and after token transfer phases.
-- Deploying the contract using hardhat on goerli test network.
-- Using Ethers JS for smart contract interaction and safely minting the CBT.
-- Using IPFS for setting up the IPFS http client on the development server and adding metadata to the IPFS and receiving the IPFS hash for the Certify Token data.
-- Using ReactJS for setting up IPFS infura client node, ethers.js and also for providing the development server.
+---
 
-### 🔧 Built With
-- Frontend:
-  - HTML
-  - React
-  - Ethers
-  - JavaScript
-  - IPFS HTTP Client
-- Contract: 
-  - Solidity
-  - Remix
-  - Metamask
-  - Hardhat
- 
+## 🧐 About the Project
+
+This project implements blockchain-based certificates using **Soulbound Tokens (SBTs)** — non-transferable ERC721 tokens that represent genuine identity and certification records. Once minted, these certificates are permanently tied to the recipient, ensuring authenticity and preventing fraud or unauthorized transfer.
+
+---
+
+## 🔨 Project Breakdown
+
+- Development of an ERC721 smart contract modified to include Soulbound properties, making certificates **non-transferable** by overriding token transfer hooks.
+- Deployment of the contract on the Goerli test network using Hardhat.
+- Interaction with the smart contract using Ethers.js to securely mint certificates.
+- Integration with IPFS to store certificate metadata off-chain and retrieve IPFS hashes for token data.
+- Frontend built with ReactJS that interfaces with IPFS, Ethers.js, and provides a smooth development experience.
+
+---
+
+### 🛠 Built With
+
+**Frontend:**
+- React
+- JavaScript
+- Ethers.js
+- IPFS HTTP Client
+- Bulma CSS Framework
+- Particles-bg (for UI effects)
+
+**Smart Contract:**
+- Solidity (ERC721 with Soulbound modifications)
+- Hardhat (deployment and testing)
+- Remix (development)
+- MetaMask (wallet integration)
+
+---
+
 ## 🚀 Getting Started
-To get a local copy up and running follow these simple steps.
 
-### 🔨 Installation
-1. Clone the repo
+### Installation
 
-```sh
+1. Clone the repository:
+
+```bash
 git clone https://github.com/Abhisharmika/Digital_Certificate.git
-```
 
 2. Installing dependencies and requirements
 
@@ -76,6 +90,3 @@ Built version:
 
 The Basic goal is to make certificate records easily accessible.
 Reliable and data once minted cannot be deleted or erased which happens in centralized systems.
-
-## 🤠 Contributions 
-Open for contributions. Just clone and follow the installation. Make changes and raise a PR detailing about the changes made.
