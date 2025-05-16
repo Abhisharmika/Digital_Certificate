@@ -6,9 +6,7 @@ Track and Send Certificates using Non transferrable ERC721 Tokens (Inspired By: 
     <br />
     <a href="https://reactjs.org/"><strong>Learn more about React »</strong></a>
     <br />
-    <a href="https://github.com/hrishi0102/Web3Certificate/issues">Report Bug</a>
-    <br />
-  <a href="https://github.com/hrishi0102/Web3Certificate">Project Link</a>
+  <a href="https://github.com/Abhisharmika/Digital_Certificate">Project Link</a>
  </p>
  
 ## ✍️ Table of Contents
@@ -48,13 +46,13 @@ To get a local copy up and running follow these simple steps.
 1. Clone the repo
 
 ```sh
-git clone https://github.com/hrishi0102/Web3Certificate.git
+git clone https://github.com/Abhisharmika/Digital_Certificate.git
 ```
 
 2. Installing dependencies and requirements
 
 ```sh
-cd Web3Certificate
+cd Digital_Certificate
 npm install ethers
 npm install ipfs-http-client
 npm install particles-bg
