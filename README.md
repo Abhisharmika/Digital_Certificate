@@ -85,8 +85,8 @@ npm start
 
 ## 🧠 Usage
 Built version:
-- npm v8.1.2
-- Node v16.13.2
+- npm v11.1.0
+- Node v22.14.0
 
 The Basic goal is to make certificate records easily accessible.
 Reliable and data once minted cannot be deleted or erased which happens in centralized systems.

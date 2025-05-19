@@ -1,17 +1,26 @@
-const hre = require("hardhat");
+import pkg from "hardhat";
+const { ethers } = pkg;
+
+import dotenv from "dotenv";
+dotenv.config();
 
 async function main() {
-  const [deployer] = await hre.ethers.getSigners();
+  const [deployer] = await ethers.getSigners();
+
   console.log("Deploying with address:", deployer.address);
 
-  const ContractFactory = await hre.ethers.getContractFactory("SBT721Certificate");
-  const contract = await ContractFactory.deploy();
-  await contract.deployed();
+  const SBT721Certificate = await ethers.getContractFactory("SBT721Certificate");
 
-  console.log("SBT721Certificate deployed to:", contract.address);
+  // Pass constructor arguments here: name and symbol
+  const contract = await SBT721Certificate.deploy("CollegeCertificate", "CERT");
+
+  // Wait for deployment to complete
+  await contract.waitForDeployment();
+
+  console.log("SBT721Certificate deployed to:", await contract.getAddress());
 }
 
 main().catch((error) => {
-  console.error(error);
+  console.error("Deployment failed:", error);
   process.exitCode = 1;
 });
