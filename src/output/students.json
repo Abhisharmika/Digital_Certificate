@@ -1,0 +1,14 @@
+[
+  {
+    "wallet": "0xe9e025C14faB375AeD991A5db78A901EF87dC04e",
+    "metadataUri": "ipfs://QmNcjcx6bFnh1fokzGfLLrTTwbYpX8DNXkRthFc4WPx8kc",
+    "batch": "B.Tech",
+    "year": "2026"
+  },
+  {
+    "wallet": "0xEdB95a9e9516220CCc9afFf9afA0C3274c0bA6b6",
+    "metadataUri": "ipfs://QmNzNzEjtaVmemKr1nKe684J6zXdvPYsZxFBSGKvqgr3a1",
+    "batch": "B.Tech",
+    "year": "2026"
+  }
+]
