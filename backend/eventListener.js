@@ -1,6 +1,6 @@
 import { ethers } from "ethers"
 import dotenv from "dotenv";
-import abi from "./sbtAbi.js";
+import abi from './sbtAbi.js';
 import Transaction from "./Transaction.js";
 
 dotenv.config();

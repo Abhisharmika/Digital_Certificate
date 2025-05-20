@@ -12,7 +12,7 @@ async function main() {
   const SBT721Certificate = await ethers.getContractFactory("SBT721Certificate");
 
   // Pass constructor arguments here: name and symbol
-  const contract = await SBT721Certificate.deploy("CollegeCertificate", "CERT");
+  const contract = await SBT721Certificate.deploy();
 
   // Wait for deployment to complete
   await contract.waitForDeployment();

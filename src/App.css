@@ -101,3 +101,6 @@
 .withdraw-success {
   color: green;
 }
+.is-clickable {
+  cursor: pointer;
+}

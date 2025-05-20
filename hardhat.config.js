@@ -7,7 +7,7 @@ import "@nomicfoundation/hardhat-toolbox";
 const config = {
   solidity: "0.8.4",
   paths: {
-    sources: "./src/ethereum"
+    sources: "./contracts"
   },
   networks: {
     sepolia: {
